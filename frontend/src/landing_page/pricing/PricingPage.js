@@ -1,7 +1,17 @@
 import React from 'react';
+import Navbar from '../Navbar';
+import Hero from './Hero';
+import Brokerage from './Brokerage';
+import Footer from '../Footer';
+
 function Pricing() {
     return ( 
-        <h1>Pricing</h1>
+        <>
+           <Navbar />
+           <Hero />
+           <Brokerage />
+           <Footer />
+        </>
      );
 }
 

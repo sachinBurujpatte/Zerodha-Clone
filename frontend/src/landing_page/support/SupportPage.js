@@ -1,7 +1,17 @@
 import React from 'react';
+import Navbar from '../Navbar';
+import Hero from './Hero';
+import CreateTicket from './CreateTicket';
+import Footer from '../Footer';
+
 function SupportPage() {
     return ( 
-        <h1>SupportPage</h1>
+        <>
+            <Navbar />
+            <Hero />
+            <CreateTicket />
+            <Footer />
+        </>
      );
 }
 
